@@ -5,7 +5,7 @@ void setup() {
 }
 
 void loop() {
-  val = Serial.read();
+ 
   if (val == 'a') {
     digitalWrite(13, HIGH);
 
